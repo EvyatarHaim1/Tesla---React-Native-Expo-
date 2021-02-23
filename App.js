@@ -6,8 +6,8 @@ import CarItem from './components/CarItem/index';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CarItem title="Model S" subtitle="Starting at $69,420" imageURL="../../assets/images/ModelX.jpeg" />
-      {/* <CarItem /> */}
+      <CarItem title="Model S" subtitle="Starting at $69,420" imageURL={require("./assets/images/ModelX.jpeg")} />
+      {/* <CarItem title="Model 3" subtitle="Starting at $69,420" imageURL={require("./assets/images/Model3.jpeg")} /> */}
       <StatusBar style="auto" />
     </View>
   );
